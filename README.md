@@ -11,12 +11,12 @@ step 4) Run node in your system using: node index<br>
 2) Get Single Product using Product Id (Method GET): http://localhost:3000/api/products/1<br>
 3) Create Product (Method POST): http://localhost:3000/api/products/ <br>
             Body param: {
-                "product_name": "Product 6 Added",
+                "product_name": "Product One",
                 "product_price": 6000
             }
 4) Update Product using Product Id (Method PUT): http://localhost:3000/api/products/2<br>
             Body param: {
-                "product_name": "Product 2 Update",
+                "product_name": "Product One Update",
                 "product_price": 7000
             }
 5)  Delete Product using Product Id (Method DELETE): http://localhost:3000/api/products/6
